@@ -6,7 +6,6 @@
 import requests
 import json
 
-
 def choose_wyy(method, url, headers, data):
     if method.upper() == "POST":
         data = json.dumps(data)
