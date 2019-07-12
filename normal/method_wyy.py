@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
-# 封装请求方法，直接进行请求，传入 方法、路径、请求头、请求数据
+# 封装请求方法，后续可以直接调用此函数，传入 方法、路径、请求头、请求数据
 
 import requests
 import json
